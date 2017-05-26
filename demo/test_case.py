@@ -17,10 +17,5 @@ class BaiduTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    baidu = BaiduTest()
-    baidu.test_baidu()
-
-
-# if __name__ == '__main__':
-#     runner = TestRunner()
-#     runner.run()
+    runner = TestRunner()
+    runner.run()
